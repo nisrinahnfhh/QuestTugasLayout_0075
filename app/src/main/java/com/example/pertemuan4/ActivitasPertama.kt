@@ -43,6 +43,15 @@ fun CardItem(
                 .padding(horizontal = 16.dp),
             verticalArrangement = Arrangement.spacedBy(4.dp)
         ) {
+
+            Text(
+                text = nama,
+                fontSize = 20.sp,
+                fontFamily = namaFontFamily,
+                fontWeight = namaFontWeight,
+                color = colorResource(namaColor)
+            )
+        }
     }
 }
 

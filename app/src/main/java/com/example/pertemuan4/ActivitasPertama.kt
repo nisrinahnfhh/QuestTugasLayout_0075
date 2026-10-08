@@ -52,7 +52,7 @@ fun CardItem(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Image(
-                painter = painterResource(R.drawable.logoharvard),
+                painter = painterResource(R.drawable.logohavard),
                 contentDescription = stringResource(R.string.logo_desc),
                 modifier = Modifier.size(80.dp)
             )
@@ -83,7 +83,7 @@ fun CardItem(
                 )
             }
             Image(
-                painter = painterResource(R.drawable.logoharvard),
+                painter = painterResource(R.drawable.logohavard),
                 contentDescription = stringResource(R.string.logo_desc),
                 modifier = Modifier.size(80.dp)
             )

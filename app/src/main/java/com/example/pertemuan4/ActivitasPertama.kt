@@ -104,6 +104,15 @@ fun CardItem(
                     namaFontFamily = FontFamily.Cursive,
                     namaFontWeight = FontWeight.Normal
                 )
+
+                CardItem(
+                    nama = stringResource(R.string.nama_1),
+                    telepon = stringResource(R.string.telepon),
+                    alamat = stringResource(R.string.alamat_1),
+                    bgColor = R.color.card_1_bg,
+                    namaColor = R.color.text_white,
+                    alamatColor = R.color.text_yellow
+                )
             }
         }
     }

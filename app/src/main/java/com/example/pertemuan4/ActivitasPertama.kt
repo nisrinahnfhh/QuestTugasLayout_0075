@@ -59,7 +59,11 @@ fun CardItem(
                     color = colorResource(teleponColor)
                 )
             }
-
+            Text(
+                text = alamat,
+                fontSize = 15.sp,
+                color = colorResource(alamatColor)
+            )
         }
     }
 }

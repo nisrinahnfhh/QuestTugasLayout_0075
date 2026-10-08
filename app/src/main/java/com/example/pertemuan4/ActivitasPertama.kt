@@ -94,6 +94,16 @@ fun CardItem(
                 )
 
                 Spacer(modifier = Modifier.height(25.dp))
+
+                CardItem(
+                    nama = stringResource(R.string.nama_0),
+                    alamat = stringResource(R.string.alamat_0),
+                    bgColor = R.color.card_0_bg,
+                    namaColor = R.color.text_white,
+                    alamatColor = R.color.text_yellow,
+                    namaFontFamily = FontFamily.Cursive,
+                    namaFontWeight = FontWeight.Normal
+                )
             }
         }
     }

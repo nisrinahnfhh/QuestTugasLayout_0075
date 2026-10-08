@@ -51,6 +51,15 @@ fun CardItem(
                 fontWeight = namaFontWeight,
                 color = colorResource(namaColor)
             )
+
+            if (telepon != null) {
+                Text(
+                    text = telepon,
+                    fontSize = 15.sp,
+                    color = colorResource(teleponColor)
+                )
+            }
+
         }
     }
 }

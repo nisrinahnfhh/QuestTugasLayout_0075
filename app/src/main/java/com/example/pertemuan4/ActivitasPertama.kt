@@ -64,6 +64,12 @@ fun CardItem(
                 fontSize = 15.sp,
                 color = colorResource(alamatColor)
             )
+
+            Image(
+                painter = painterResource(R.drawable.logoharvard),
+                contentDescription = stringResource(R.string.logo_desc),
+                modifier = Modifier.size(80.dp)
+            )
         }
     }
 }

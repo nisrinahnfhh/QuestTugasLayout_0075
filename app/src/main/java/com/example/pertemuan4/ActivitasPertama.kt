@@ -122,6 +122,15 @@ fun CardItem(
                     namaColor = R.color.text_white,
                     alamatColor = R.color.text_white
                 )
+
+                CardItem(
+                    nama = stringResource(R.string.nama_3),
+                    telepon = stringResource(R.string.telepon),
+                    alamat = stringResource(R.string.alamat_3),
+                    bgColor = R.color.card_3_bg,
+                    namaColor = R.color.text_white,
+                    alamatColor = R.color.text_white
+                )
             }
         }
     }

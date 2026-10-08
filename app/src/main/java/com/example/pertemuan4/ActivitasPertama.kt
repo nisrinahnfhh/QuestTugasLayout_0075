@@ -23,13 +23,19 @@ fun CardItem(
         )
     ) {
 
-        Code:
         Row(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(5.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
+
+            Image(
+                painter = painterResource(R.drawable.logoharvard),
+                contentDescription = stringResource(R.string.logo_desc),
+                modifier = Modifier.size(80.dp)
+            )
+        }
     }
 }
 

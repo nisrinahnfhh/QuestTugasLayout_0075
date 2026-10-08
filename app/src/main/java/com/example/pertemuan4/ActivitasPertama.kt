@@ -70,7 +70,11 @@ fun CardItem(
                 contentDescription = stringResource(R.string.logo_desc),
                 modifier = Modifier.size(80.dp)
             )
+
         }
+
+        @Composable
+        fun ActivitasPertama(modifier: Modifier = Modifier) {
     }
 }
 

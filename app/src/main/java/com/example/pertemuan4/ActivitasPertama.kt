@@ -131,6 +131,16 @@ fun CardItem(
                     namaColor = R.color.text_white,
                     alamatColor = R.color.text_white
                 )
+
+                Box(modifier = Modifier.fillMaxSize()) {
+                    Text(
+                        text = stringResource(R.string.copy),
+                        fontSize = 12.sp,
+                        modifier = Modifier
+                            .align(Alignment.BottomCenter)
+                            .padding(bottom = 30.dp)
+                    )
+                }
             }
         }
     }

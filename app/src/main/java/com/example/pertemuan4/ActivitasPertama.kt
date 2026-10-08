@@ -22,5 +22,14 @@ fun CardItem(
             containerColor = colorResource(bgColor)
         )
     ) {
+
+        Code:
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(5.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+    }
 }
 

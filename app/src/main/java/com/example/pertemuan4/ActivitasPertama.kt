@@ -36,6 +36,13 @@ fun CardItem(
                 modifier = Modifier.size(80.dp)
             )
         }
+
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .padding(horizontal = 16.dp),
+            verticalArrangement = Arrangement.spacedBy(4.dp)
+        ) {
     }
 }
 

@@ -14,3 +14,13 @@ fun CardItem(
     namaFontWeight: FontWeight = FontWeight.Bold
 ) {
 
+    Card(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 6.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(bgColor)
+        )
+    ) {
+}
+

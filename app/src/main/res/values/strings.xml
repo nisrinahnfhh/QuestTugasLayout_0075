@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">pertemuan4</string>
+    <string name="app_name">Pertemuan4</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copy">Copyright, 2026</string>
+    <string name="logo_desc">Logo Harvard University</string>
+
+    <string name="telepon">+1 (310) 555-0143</string>
+
+    <string name="nama_0">Nisrina Hanifah Ramadhani</string>
+    <string name="alamat_0">Los Angeles, California</string>
+
+    <string name="nama_1">Afifah Miftakhul Jannah</string>
+    <string name="alamat_1">Chicago, Illinois</string>
+
+    <string name="nama_2">Wulandhika Kurnaliawati</string>
+    <string name="alamat_2">Houston, Texas</string>
+
+    <string name="nama_3">Radiva Septiana Marcellita</string>
+    <string name="alamat_3">Seattle, Washington</string>
 </resources>

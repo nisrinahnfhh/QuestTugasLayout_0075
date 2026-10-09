@@ -8,12 +8,19 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="card_0_bg">#FF5F5D5D</color>
-    <color name="card_1_bg">#FF6F42C1</color>
-    <color name="card_2_bg">#FF0000FF</color>
-    <color name="card_3_bg">#FF006400</color>
+    <color name="soft_dunes">#FFE3D5C0</color>
+    <color name="observe">#FFCEBBA0</color>
+    <color name="golden_walnut">#FF8E7A5E</color>
 
+    <color name="bg_screen">#FFE3D5C0</color>
+
+    <color name="card_0_bg">#FF8E7A5E</color>
+    <color name="card_1_bg">#FFCEBBA0</color>
+    <color name="card_2_bg">#FF8E7A5E</color>
+    <color name="card_3_bg">#FFCEBBA0</color>
+
+    <color name="text_dark">#FF4A3B2A</color>
+    <color name="text_brown">#FF6B5638</color>
+    <color name="text_cream">#FFFFF3D6</color>
     <color name="text_white">#FFFFFFFF</color>
-    <color name="text_yellow">#FFFFFF00</color>
-    <color name="text_cyan">#FF00E5FF</color>
 </resources>
